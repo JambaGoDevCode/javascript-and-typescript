@@ -9,11 +9,16 @@ function example_1() {
 
 function example_2() {
   example_3();
-  console.log("Primeira função 2");
+  console.log("Segunda função 2");
 }
 
 function example_3() {
-  console.log("Primeira função 3");
+  console.log("Terceira função 3");
 }
 
 example_1();
+
+// A ordem de função a serem executada
+// Terceira função 3
+// Segunda função 2
+// Primeira função 1
